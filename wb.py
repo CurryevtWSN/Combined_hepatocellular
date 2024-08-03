@@ -7,6 +7,7 @@ import seaborn as sns
 import shap
 import sklearn
 import joblib
+import openpyxl
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 #%%不提示warning信息
