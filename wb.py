@@ -20,7 +20,7 @@ st.title('Decision system for combined hepatocellular-carcinoma distant metastas
 #%%set varixgbles selection
 st.sidebar.markdown('## Varixgbles')
 
-N =  st.sidebar.selectbox("Node",('No', 'Yes'),index=0)
+N =  st.sidebar.selectbox("Node",('No', 'Yes'),index=1)
 Surgery = st.sidebar.selectbox("Surgery",('No', 'Yes'),index=0)
 Age =  st.sidebar.slider("Age (year)", 5,95,value = 65, step = 1)
 Grade = st.sidebar.selectbox("Grade",('Well differentiated; Grade I',
