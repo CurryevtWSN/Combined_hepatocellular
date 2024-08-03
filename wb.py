@@ -9,6 +9,7 @@ import shap
 import sklearn
 import joblib
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+from xgboost import XGBClassifier
 
 #%%不提示warning信息
 st.set_option('deprecation.showPyplotGlobalUse', False)
