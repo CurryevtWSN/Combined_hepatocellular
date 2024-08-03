@@ -34,7 +34,7 @@ Race = st.sidebar.selectbox("Race", ('White',"Black","Other (American Indian, As
 st.sidebar.markdown('#  ')
 st.sidebar.markdown('#  ')
 st.sidebar.markdown('##### All rights reserved') 
-st.sidebar.markdown('##### For communication and cooperation, please contact wshinana99@163.com, Wu Shi-Nan, Nanchang university')
+st.sidebar.markdown('##### For communication and cooperation, please contact wshinana99@163.com, Shi-Nan Wu, Xiamen university')
 #传入数据
 map = {'No':0,
        'Yes':1,
