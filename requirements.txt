@@ -7,3 +7,4 @@ joblib==1.2.0
 shap==0.44.1
 seaborn==0.12.2
 xgboost==2.0.3
+openpyxl==3.0.10
