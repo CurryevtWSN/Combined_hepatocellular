@@ -58,10 +58,10 @@ Race = map[Race]
 
 # 数据读取，特征标注
 #%%load model
-xgb_model = joblib.load(r'D:\厦门大学\合作\刘荣强\混合型肝癌机器学习\xgb_model.pkl')
+xgb_model = joblib.load('xgb_model.pkl')
 
 #%%load data
-hp_train = pd.read_excel(r"F:\合作者\刘荣强\混合型肝癌SEER联合医院数据\SEER_data_2000_2020.xlsx", sheet_name="train")
+hp_train = pd.read_excel("data.xlsx", sheet_name="data")
 features = ['N',
             'Surgery',
             'Age',
