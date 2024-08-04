@@ -14,8 +14,8 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #%%set title
-st.set_page_config(page_title='Decision system for combined hepatocellular-carcinoma distant metastasis: A retrospective observational study based on machine learning')
-st.title('Decision system for combined hepatocellular-carcinoma distant metastasis: A retrospective observational study based on machine learning')
+st.set_page_config(page_title='Decision system for combined hepatocellular-cholangiocarcinoma distant metastasis: a retrospective cohort study based on machine learning')
+st.title('Decision system for combined hepatocellular-cholangiocarcinoma distant metastasis: a retrospective cohort study based on machine learning')
 
 #%%set varixgbles selection
 st.sidebar.markdown('## Varixgbles')
